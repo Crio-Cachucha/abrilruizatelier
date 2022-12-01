@@ -1,0 +1,91 @@
+<!--
+    AUTOR: Iban Quintana
+    ASIGNATURA: Lenguaje de marcas y sistemas de gestión de la información
+    UNIDAD: UD2- Desarrollo web con HTML5 y CSS3
+    TAREA: Tarea evaluativa 2. SITIO WEB
+-->
+<!--CONTACTO-WEB-Abril Ruiz-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noticias-Abril Ruiz Atelier</title>
+        <link href="css/estilos-contacto.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+<!--Logo-->
+        <header>          
+            <a href="index.html">     
+                <img class="logo" src="img/logo_800x800.png" alt="LOGO">
+            </a>
+        </header>      
+<!--botones navegación-->   
+        <nav class="botones"> 
+            <ul> 
+                <li class="boton-nav-producto">  
+                    <a  href="productos.html">
+                        <img src="img/Botones_108_34_Productos.png" alt="Producto" />  
+                    </a> 
+                </li>  
+                <li class="boton-nav-noticias"> 
+                    <a href="noticias.html">
+                        <img src="img/Botones_108_34_Noticias.png" alt="Noticias" />
+                    </a>                                       
+                </li> 
+                <li class="boton-nav-contacto"> 
+                    <a href="contacto.html">      
+                        <img src="img/Botones_108_34_Contacto.png" alt="Contacto" />
+                    </a>                                                  
+                </li> 
+                <li class="boton-nav-insta"> 
+                    <a href="instagram.html">        
+                    <img src="img/Botones_108_34_Instagram.png" alt="Instagram" />
+                    </a> 
+                </li> 
+            </ul>   
+        </nav> 
+<!--FORMULARIO--> 
+        <section id=formulario>
+            <h1>¿En qué puedo ayudarte?</h4>
+            <form action="mailto:ivquintana@birt.eus" method="GET">
+            <fieldset>
+                <article id="input-nombre-apellido-edad">
+                    Nombre: <input type="text" value="">
+                    Apellido:<input type="text" value="">
+                    Edad: <input type="text" value=""><br>
+    <!--CHECK SEXO--> 
+                </article>              
+                <article id=check-mujer>
+                    <input type="checkbox"name="check1" value="mujer">
+                    <label for="check1"> mujer </label>
+                </article>  
+                <article id=check-hombre>
+                    <input type="checkbox" name="check2" value="hombre">
+                    <label for="check2"> hombre </label><br>
+                </article> 
+                <article id=check-nada>   
+                    <input type="checkbox"name="check3" value="nada">
+                    <label for="check3"> prefiero no decirlo</label>
+                </article>
+    <!--CAMPO RELLENO--> 
+                <article id="comentario">
+                    <textarea  id="text-comentario"name="comentarios" rows="8" cols="80">
+                        Escribe aquí tus comentarios</textarea>
+    <!--BOTONES ENVÍO-RESTABLECER--> 
+                </article>
+                <article id="enviar">
+                    <input type="submit" value="enviar"> 
+                </article>  
+                <article id="restablecer">
+                    <input type="reset" value="restablecer">
+                </article>                  
+            </form>
+            </fieldset>
+        </section>                           
+ <!--POLITICA DATOS-FIRMA-->         
+        <footer>
+            <p class="firma">&copy  EL CRIO CACHUCHA 2022 </p>
+        </footer>       
+    </body>
+</html>

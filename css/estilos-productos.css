@@ -1,0 +1,160 @@
+/**
+    AUTOR: Iban Quintana
+    ASIGNATURA: Lenguaje de marcas y sistemas de gestión de la información
+    UNIDAD: UD2- Desarrollo web con HTML5 y CSS3
+    TAREA: Tarea evaluativa 2. SITIO WEB
+**/
+/**Estilos para los PRODUCTOS**/
+
+
+body{
+    display: flex;
+    flex-direction: column;   
+   
+}
+
+.logo{ 
+	width: 10rem;
+    margin-left: 44%;
+    margin-top: 2%;
+    margin-bottom: 1rem; 
+    padding: 0;     
+}
+
+main{   
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-top-color:red ;
+    border-bottom-color:red ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;     
+}
+
+aside{
+    background-color: rgb(39, 118, 133);
+    width:19%; 
+
+}
+
+li{   
+    padding: 1rem;
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+ } 
+
+.box-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.box-bolso{
+    border-radius: 1.25rem;
+    border-style: solid;
+    border-color: rgb(39, 118, 133);  
+    width: 13.1rem;
+    height: 25rem;
+    margin-right: 0.5rem;
+    position: relative;    
+}
+
+.img-bolso{
+    height:75%;
+    width: auto;  
+    position: absolute;
+    margin-left: 16%;  
+}
+
+.box-name-principal{
+    margin-left: 20%;
+    font-family: Sen;
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+}
+
+
+.box-mochila{
+    border-style: solid;
+    border-color: brown;
+    border-radius: 1.25rem;
+    width: 13.1rem;
+    height: 25rem;
+    margin-right: 0.5rem;
+    position: relative;     
+}
+
+.img-mochila{
+    height:75%;
+    width: auto;  
+    position: absolute;
+    margin-left: 16%;
+}
+
+.box-compresa{
+    border-style: solid;
+    border-color: rgb(39, 118, 133);
+    border-radius: 20px;
+    width: 13.1rem;
+    height: 25rem;
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.img-compresa{
+  
+    height:75%;
+    width: 70%; 
+    position: absolute;
+    margin-left: 16%;
+    object-fit: cover
+   
+}
+
+.box-funda{
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;   
+    width: 13.1rem;
+    height: 25rem;  
+    position: relative;
+}
+
+.img-funda{  
+
+    height:75%;
+    width: auto;  
+    position: absolute;
+    margin-left: 16%;
+}
+
+.name-enlace-producto{
+    position: absolute;
+    color: azure;
+    background-color: brown;
+    left:35%;
+    top:87%;
+    padding: 0.2rem;
+    font-family: Sen;
+}
+
+ footer{
+    position: relative;
+    background-color: brown;
+    height: 8rem;
+    margin-top: 1rem;
+}
+
+
+.firma{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3rem;
+    font-family: Sen;
+}
+
+
+
